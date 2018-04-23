@@ -1,0 +1,23 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxm="http://schemas.devexpress.com/winfx/2008/xaml/map" 
+        x:Class="CartesianMap.MainWindow"
+        Title="MainWindow" Height="720" Width="1280">
+    <Grid>
+
+        <dxm:MapControl x:Name="mapControl">
+            <dxm:MapControl.CoordinateSystem>
+                <dxm:CartesianMapCoordinateSystem/>
+            </dxm:MapControl.CoordinateSystem>
+            <dxm:VectorLayer DataLoaded="VectorLayer_DataLoaded">
+                <dxm:ShapefileDataAdapter FileUri="Data/Hotel1.shp">
+                    <dxm:ShapefileDataAdapter.SourceCoordinateSystem>
+                        <dxm:CartesianSourceCoordinateSystem/>
+                    </dxm:ShapefileDataAdapter.SourceCoordinateSystem>
+                </dxm:ShapefileDataAdapter>
+            </dxm:VectorLayer>
+        </dxm:MapControl>
+
+    </Grid>
+</Window>
