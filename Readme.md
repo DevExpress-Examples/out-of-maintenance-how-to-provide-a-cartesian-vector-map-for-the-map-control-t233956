@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * **[MainWindow.xaml](./CS/CartesianMap/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/CartesianMap/MainWindow.xaml))**
-* [MainWindow.xaml.cs](./CS/CartesianMap/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/CartesianMap/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/CartesianMap/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/CartesianMap/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to provide a Cartesian vector map for the Map Control
 
